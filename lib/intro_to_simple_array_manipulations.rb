@@ -5,12 +5,9 @@ def using_concat(array, array2)
 end
 
 def using_insert(array, element)
-  new_array = array.insert(element)
-  binding.pry 
-  new_array
-  binding.pry 
+  array.insert(element)
 end
-binding.pry 
+
 
 def using_uniq(array)
   array.uniq 
