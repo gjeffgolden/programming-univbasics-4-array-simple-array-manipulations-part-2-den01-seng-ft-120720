@@ -6,4 +6,6 @@ end
 
 def using_insert(array, element)
   array[4] = element
+  binding.pry
 end
+binding.pry 
